@@ -1,0 +1,19 @@
+{
+  "name": "diginext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DigiNext.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliBahaari/DigiNext-Algorithm-Questions-Answers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliBahaari/DigiNext-Algorithm-Questions-Answers/issues"
+  },
+  "homepage": "https://github.com/AliBahaari/DigiNext-Algorithm-Questions-Answers#readme"
+}

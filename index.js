@@ -1,36 +1,36 @@
 // Question-1
 function repeatTextAndFindChar(text, repeatCount) {
   const repeatedText = text.repeat(repeatCount);
-  let aChars = [];
+  let aChars = 0;
 
   for (char of repeatedText) {
     if (char == "a") {
-      aChars.push(1);
+      aChars += 1;
     }
   }
 
-  return aChars.length;
+  return aChars;
 }
 
 // Question-2
 function removedCharsCount(text) {
   const charA = "A";
   const charB = "B";
-  let removedChars = [];
+  let removedChars = 0;
 
   for (let i = 0; i < text.length; i++) {
     if (text[i] == charA) {
       if (text[i + 1] == charA) {
-        removedChars.push(1);
+        removedChars += 1;
       }
     } else if (text[i] == charB) {
       if (text[i + 1] == charB) {
-        removedChars.push(1);
+        removedChars += 1;
       }
     }
   }
 
-  return removedChars.length;
+  return removedChars;
 }
 
 // Question-3
